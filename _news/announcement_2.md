@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2023-1-1 16:11:00-0400
+date: 2022-04-20 15:59:00-0400
 inline: true
 related_posts: false
 ---
-I started working as undergradute researcher at Kovan Lab!
+
+I started working at Asisguard as Part Time Robotics Engineer.
