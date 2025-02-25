@@ -2,96 +2,72 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yunus Talha Erzurumlu
+    - name: Contact
+      value: "erzurumlu.1@osu.edu"
     - name: Languages
-      value: English, German
+      value: English, Turkish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. Electrical and Computer Engineering
+      institution: The Ohio State University, Columbus, OH, USA
+      year: August 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Relevant Coursework: Introduction to Photogrammetry, Photogrammetric Computer Vision, Real-Time Robotics
+    
+    - title: B.S. Electrical and Electronics Engineering
+      institution: Middle East Technical University, Ankara, Turkiye
+      year: September 2019 - June 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Admitted with a top 0.0008% national ranking (2171st in 2.6 million) in the university entrance exam.
+        - Graduated with honors, ranking in the top 15% of a nationally renowned engineering program.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Associate
+      institution: The Ohio State University, PCVLab, Columbus, OH, USA
+      year: August 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a SOTA semantic segmentation model (23x fewer FLOPs, 10x fewer params; ECCV2024 BIC [Oral]).
+        - Developed fast 3D surface rendering with 3DGS for point clouds in digital elevation/surface maps.
+    
+    - title: Research Intern
+      institution: The Ohio State University, PCVLab, Columbus, OH, USA
+      year: March 2023 – June 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Worked on a novel distance transform-based geometric-loss function for improving aerial image segmentation accuracy.
+        - Worked on medical image segmentation using advanced 2D/3D deep learning architectures.
+    
+    - title: Part-Time Robotics Engineer
+      institution: Kuartis, Ankara, Turkiye
+      year: November 2023 – July 2024
       description:
+        - Developed robust multi-object tracking methods fusing radar and LiDAR data for maritime and autonomous driving.
+        - Worked on radar-camera fusion to improve sensor accuracy and decision-making in autonomous driving systems.
+        - Contributed to LiDAR odometry and LiDAR-GPS fusion for precise localization in autonomous driving applications.
+        - Implemented algorithms from scratch in C/C++ to ensure low-latency, production-level performance.
+    
+    - title: Research Intern
+      institution: METU Robotics – AI Research Center (ROMER), Ankara, Turkiye
+      year: October 2022 – June 2024
+      description:
+        - Contributed to the Kalfa project involving robotic control and perception on industrial robots (UR, Franka).
+        - Applied robot kinematics, control theory, and spatial perception algorithms to enhance accuracy in industrial automation.
+    
+    - title: Intern
+      institution: Asisguard, Ankara, Turkiye
+      year: April 2022 – February 2023
+      description:
+        - Implemented Visual SLAM-based navigation and multi-UAV formation path planning.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "MobileUNETR: A Lightweight End-To-End Hybrid Vision Transformer For Efficient Medical Image Segmentation"
+      authors: "Perera, S., Erzurumlu, Y., Gulati, D., Yilmaz, A."
+      year: 2024
+      conference: "European Conference of Computer Vision 2024 BioImage Computing Workshop [Oral]"
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

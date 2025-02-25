@@ -1,33 +1,38 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Our paper MobileUNETR has been accepted to ECCV 2024 BioImage Computing Workshop (ORAL)
+date: 2024-09-29 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+# MobileUNETR: A Lightweight Hybrid CNN-Transformer Model for Skin Lesion Segmentation
 
----
+Skin cancer segmentation poses a significant challenge in medical image analysis. Numerous existing solutions, predominantly **CNN-based**, face issues related to a lack of global contextual understanding. Alternatively, some approaches resort to **large-scale Transformer models** to bridge the global contextual gaps, but at the expense of model size and computational complexity. Furthermore, many Transformer-based approaches rely primarily on **CNN-based decoders**, overlooking the benefits of Transformer-based decoding models.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Our Contribution
+Recognizing these limitations, we introduce **MobileUNETR**, an efficient and lightweight segmentation model that overcomes the performance constraints associated with both CNNs and Transformers while minimizing model size. MobileUNETR presents a **promising stride towards efficient image segmentation** with the following key features:
 
-#### Hipster list
+### 🔹 Key Features:
+1. **Hybrid CNN-Transformer Encoder**  
+   - Balances local and global contextual feature extraction in an efficient manner.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+2. **Novel Hybrid Decoder**  
+   - Simultaneously utilizes **low-level** and **global features** at different resolutions within the decoding stage for **accurate mask generation**.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+3. **Superior Performance & Efficiency**  
+   - Outperforms large and complex architectures with just **3 million parameters** and a computational complexity of **1.3 GFLOP**.  
+   - Achieves **10× and 23×** reduction in parameters and FLOPs, respectively.
 
----
+## Experimental Validation
+Extensive experiments have been conducted to validate the effectiveness of our proposed method on **four publicly available skin lesion segmentation datasets**, including:
+- **ISIC 2016**
+- **ISIC 2017**
+- **ISIC 2018**
+- **PH2 datasets**
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+Moreover we have also obtained competitive performances on **Cityscapes**, **Postdam**, and **Vaihingen** datasets.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+## 📌 Code Availability
+The code will be publicly available at:  
+🔗 **[GitHub Repository](https://github.com/osupcvlab/mobileunetr)**
